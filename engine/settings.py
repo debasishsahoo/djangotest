@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-uud2lr_yyvp-gfac_sm5_^c#f23t2-xse2ho9dt5fy1%gd=ou@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','gmitdjangotest.herokuapp.com']
 
 # E:\djago-food\engine\
 # Application definition
